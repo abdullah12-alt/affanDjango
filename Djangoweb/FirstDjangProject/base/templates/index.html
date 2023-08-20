@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah - Software Engineer</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .intro p {
+    font-size: 1.2em;
+    color: #555;
+
+
+  }
+  nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 1em;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #66c2ff;
+  }
+</style>
+</head>
+<body>
+    <header>
+      <nav>
+        <a href="">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="{% url 'contact' %}">Contact</a> <!-- Added contact page link -->
+      </nav>
+      <h1>Welcome to Abdullah's Website</h1>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <h1>Hi, I'm Abdullah</h1>
+        <p>I'm a passionate software engineer with a love for coding and problem-solving. I enjoy creating innovative solutions and working in collaborative teams.</p>
+        <p>Feel free to explore my website to learn more about my projects and experiences!</p>
+      </div>
+      <!-- Add more content sections here -->
+    </div>
+  </body>
+</html>
